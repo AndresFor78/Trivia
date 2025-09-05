@@ -20,7 +20,8 @@ export class Modal {
         });
 
         const btnCompartir = document.getElementById('btnCompartir');
-        btnCompartir.addEventListener('click', ()=>{
+        btnCompartir.addEventListener('click', (e)=>{
+            e.preventDefault();
             this.compartirResultados();
         });
 
