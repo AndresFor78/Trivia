@@ -1,0 +1,126 @@
+:root{
+    --color-fondo: #130a2e;
+    --color-fuente: #FFF;
+    --color-card: #222
+}
+
+body{
+    background-color: var(--color-fondo);
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.container{
+    width: 80%;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.titulo-principal{
+    margin: 2rem 0 2rem 0;
+    display: flex;
+    justify-content: center;
+}
+
+.titulo-principal img{
+    width: 50%;
+    /* height: auto; */
+}
+
+.grilla {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 1rem;
+}
+
+.item {
+    aspect-ratio: 2 / 3;
+    border: none;
+    border-radius: 8px;
+    background-color: var(--color-card);
+    overflow: hidden;
+    transform: scale(1);
+    transition: transform .2s ease;
+    display: flex;
+    flex-direction: column;
+}
+
+.item:hover {
+    transform: scale(1.05);
+}
+
+a{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: 100%;
+    text-decoration: none;
+    color: var(--color-fuente);
+}
+
+a img{
+    width: 100%;
+    height: 70%;
+    object-fit: cover;
+}
+
+a .item-contenido{
+    height: 30%;
+    display: flex; 
+    flex-direction: column;
+    align-items: center;
+    padding: 10px 0 10px 0;
+}
+
+.item-contenido h3{
+    font-size: 1.2rem;
+    font-style: italic;
+    color: gold;
+}
+
+.item-contenido p{
+    font-size: .8rem;
+    margin-top: 10px;
+    color: #ccc;
+    text-align: center;
+}
+
+footer p{
+    font-family: 'Times New Roman', Times, serif
+}
+
+/* Medias querys */
+
+/* Celular */
+@media screen and (max-width:600px) {
+    .container{
+        width: 90%;
+    }
+    .titulo-principal img {
+        width: 80%;
+        /* height: auto; */
+    }
+    .grilla {
+            display: grid;
+            grid-template-columns: repeat(2, 1fr);            
+    }
+    a img{
+        height: 50%;
+    }
+    a .item-contenido p{
+        height: 50%;
+    }  
+}
+
+/* Tablet */
+@media screen and (min-width:601px) and (max-width:1024px){
+    .grilla{
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+    }
+    .item img{
+        height: 80%;
+    }
+
+}

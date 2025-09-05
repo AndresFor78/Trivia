@@ -1,0 +1,93 @@
+/* Modal */
+.modal-overlay .modal-box img {
+    width: 200px;
+    height: 200px;
+    object-fit: cover;
+}
+
+.modal-overlay {
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    background: rgba(0, 0, 0, 0.5);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    pointer-events: none;
+    opacity: 0;
+    transition: opacity 0.3s ease;
+
+}
+
+.modal-overlay .modal-box {
+    background-color: #FFF;
+    padding: 1rem;
+    width: 90%;
+    max-width: 400px;
+    box-shadow: 0 30px 15px rgba(0, 0, 0, 0.5);
+    position: relative;
+    transform: scale(0.7);
+    transition: transform 0.3s ease;
+}
+
+.modal-overlay .modal-box .modal-contenido {
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+    padding: 1rem;
+    align-items: center;
+    margin-top: 2rem;
+
+}
+
+.modal-overlay .modal-box .modal-contenido p {
+    text-align: justify;
+    font-size: 1.2rem;
+}
+
+.modal-overlay .modal-box .modal-contenido p span {
+    color: blue;
+    font-weight: bolder;
+}
+
+.modal-overlay .modal-box .modal-contenido .btn-compartir,
+.btn-volver-jugar {
+    text-decoration: none;
+    padding: .5rem 1rem;
+    background-color: blue;
+    color: #FFF;
+    border: none;
+    border-radius: 25px;
+    font-size: 1.2rem;
+    transform: scale(.9);
+    transition: transform .5s ease;
+}
+
+.modal-overlay .modal-box .modal-contenido .btn-compartir:hover {
+    transform: scale(1);
+}
+
+.modal-overlay .modal-box .modal-contenido .btn-compartir:active {
+    transform: scale(.8);
+}
+
+.modal-overlay.mostrarModal .modal-box {
+    transform: scale(1);
+}
+
+.modal-overlay .modal-box .btn-cerrarModal {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    font-size: 1.5rem;
+    border: none;
+    background-color: #FFF;
+    cursor: pointer;
+}
+
+.mostrarModal {
+    opacity: 1;
+    pointer-events: auto;
+}
