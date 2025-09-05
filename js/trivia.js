@@ -1,6 +1,6 @@
 import { Medallero } from "./medallas/medallero.js";
 import { Modal } from "./modal.js";
-import { triviaContenido } from "./triviaContenido.js";
+import { obtenerTriviaContenido } from "./triviaContenido.js";
 
 var contadorCorrectas = 0, contadorIncorrectas = 0, totalPreguntas = 0;
 let modalApi = '', loader = '', contenedor = '', titulo = '',imagenesPrecargadas = '';
@@ -354,10 +354,10 @@ function crearTrivia(jsonPreguntas, triviaSeleccionada, barajarTrivia){
 
         let trivia = '';
 
-        const tipoTrivia = localStorage.getItem('tipoTriviaSeleccionada');
+        const tipoTrivia = localStorage.getItem('tipoTriviaSeleccionada');  
 
         if (tipoTrivia!==null) {
-            trivia = triviaContenido.find(o=> o.tipo === tipoTrivia);              
+            trivia = obtenerTriviaContenido().find(o=> o.tipo === tipoTrivia);              
         }
 
         return trivia;
