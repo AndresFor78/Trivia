@@ -1,7 +1,7 @@
 [
   {
     "idPregunta": 1,
-    "nombrePregunta": "En 'Jurassic Park' (1993), ¿qué dinosaurio ataca primero a los personajes?",
+    "nombrePregunta": "En 'Jurassic Park' (1993), ¿qué dinosaurio ataca primero a los protagonistas?",
     "alternativas": ["Tyrannosaurus Rex", "Velociraptor", "Triceratops", "Brachiosaurus"],
     "explicacionRespuesta": [
       {
@@ -14,7 +14,7 @@
   {
     "idPregunta": 2,
     "nombrePregunta": "En 'Die Hard' (1988), ¿dónde ocurre la acción principal?",
-    "alternativas": ["Avión en vuelo", "Rascacielos Nakatomi Plaza", "Base militar secreta"],
+    "alternativas": ["Avión en vuelo", "Rascacielos Nakatomi Plaza", "Base militar secreta", "Isla desierta"],
     "explicacionRespuesta": [
       {
         "tipo": "texto",
@@ -25,8 +25,8 @@
   },
   {
     "idPregunta": 3,
-    "nombrePregunta": "En 'The Matrix' (1999), ¿qué pastilla toma Neo para ver la verdad?",
-    "alternativas": ["Azul", "Roja"],
+    "nombrePregunta": "En 'The Matrix' (1999), ¿qué pastilla toma Neo para despertar de la Matrix?",
+    "alternativas": ["Azul", "Roja", "Verde", "Amarilla"],
     "explicacionRespuesta": [
       {
         "tipo": "texto",
@@ -49,15 +49,15 @@
   },
   {
     "idPregunta": 5,
-    "nombrePregunta": "En 'Indiana Jones y los Cazadores del Arca Perdida', ¿qué busca Indiana?",
-    "alternativas": ["El Rubí del Nilo", "La Piedra Filosofal", "El Santo Grial", "La Arca de la Alianza"],
+    "nombrePregunta": "En 'X-Men' (2000), ¿qué personaje es líder de los mutantes?",
+    "alternativas": ["Magneto", "Profesor X", "Wolverine", "Storm"],
     "explicacionRespuesta": [
       {
         "tipo": "texto",
-        "contenido": "Indiana Jones busca la Arca de la Alianza."
+        "contenido": "El Profesor X lidera a los mutantes en la Escuela Xavier."
       }
     ],
-    "numeroAlternativaCorrecta": 4
+    "numeroAlternativaCorrecta": 2
   },
   {
     "idPregunta": 6,
@@ -73,12 +73,12 @@
   },
   {
     "idPregunta": 7,
-    "nombrePregunta": "En 'Gladiator' (2000), ¿qué título recibe Maximus en la arena?",
-    "alternativas": ["César", "Gladiador", "General", "Comandante"],
+    "nombrePregunta": "En 'X-Men: Days of Future Past' (2014), ¿quién envía a Wolverine al pasado?",
+    "alternativas": ["Magneto", "Profesor X", "Rogue", "Mystique"],
     "explicacionRespuesta": [
       {
         "tipo": "texto",
-        "contenido": "Maximus es conocido como 'Gladiador'."
+        "contenido": "El Profesor X envía a Wolverine al pasado para cambiar el futuro."
       }
     ],
     "numeroAlternativaCorrecta": 2
@@ -97,39 +97,39 @@
   },
   {
     "idPregunta": 9,
-    "nombrePregunta": "En 'Mission: Impossible' (1996), ¿qué tecnología usa Ethan Hunt?",
-    "alternativas": ["Drones", "Máscaras faciales", "Traje invisible"],
+    "nombrePregunta": "En 'X-Men: First Class' (2011), ¿quién se convierte en Magneto?",
+    "alternativas": ["Erik Lehnsherr", "Charles Xavier", "Alex Summers", "Hank McCoy"],
     "explicacionRespuesta": [
       {
         "tipo": "texto",
-        "contenido": "Ethan Hunt usa máscaras faciales realistas."
+        "contenido": "Erik Lehnsherr se convierte en Magneto tras eventos traumáticos."
       }
     ],
-    "numeroAlternativaCorrecta": 2
+    "numeroAlternativaCorrecta": 1
   },
   {
     "idPregunta": 10,
-    "nombrePregunta": "En 'Pirates of the Caribbean' (2003), ¿qué busca Jack Sparrow?",
-    "alternativas": ["El Tesoro Azteca", "El Perla Negra", "La Corona del Rey", "El Holandés Errante"],
+    "nombrePregunta": "En 'Guardians of the Galaxy' (2014), ¿qué objeto buscan los héroes?",
+    "alternativas": ["El Orbe", "Cetro de Loki", "Teseracto", "Gema del Poder"],
     "explicacionRespuesta": [
       {
         "tipo": "texto",
-        "contenido": "Jack busca recuperar su barco, el Perla Negra."
+        "contenido": "El Orbe contiene la Gema del Poder, que buscan los Guardianes."
       }
     ],
-    "numeroAlternativaCorrecta": 2
+    "numeroAlternativaCorrecta": 1
   },
   {
     "idPregunta": 11,
-    "nombrePregunta": "En 'Avatar' (2009), ¿cómo se llama el planeta?",
-    "alternativas": ["Vulcano", "Pandora", "Krypton", "Endor"],
+    "nombrePregunta": "En 'X-Men: The Last Stand' (2006), ¿qué cura a los mutantes?",
+    "alternativas": ["Fórmula secreta", "Curación del gobierno", "Vacuna para mutantes", "Suero de Magneto"],
     "explicacionRespuesta": [
       {
         "tipo": "texto",
-        "contenido": "La historia ocurre en Pandora."
+        "contenido": "La vacuna para mutantes elimina temporalmente los poderes de los mutantes."
       }
     ],
-    "numeroAlternativaCorrecta": 2
+    "numeroAlternativaCorrecta": 3
   },
   {
     "idPregunta": 12,
@@ -145,42 +145,18 @@
   },
   {
     "idPregunta": 13,
-    "nombrePregunta": "En 'Mad Max: Fury Road' (2015), ¿quién persigue a Max y Furiosa?",
-    "alternativas": ["Nux", "Rictus Erectus", "Immortan Joe", "Furiosa"],
+    "nombrePregunta": "En 'X-Men: Apocalypse' (2016), ¿quién es el villano principal?",
+    "alternativas": ["Magneto", "Apocalypse", "Mystique", "Wolverine"],
     "explicacionRespuesta": [
       {
         "tipo": "texto",
-        "contenido": "Immortan Joe persigue a Max y Furiosa."
-      }
-    ],
-    "numeroAlternativaCorrecta": 3
-  },
-  {
-    "idPregunta": 14,
-    "nombrePregunta": "En 'Guardians of the Galaxy' (2014), ¿qué objeto buscan?",
-    "alternativas": ["El Orbe", "Cetro de Loki", "Teseracto", "Gema del Poder"],
-    "explicacionRespuesta": [
-      {
-        "tipo": "texto",
-        "contenido": "El Orbe contiene la Gema del Poder."
-      }
-    ],
-    "numeroAlternativaCorrecta": 1
-  },
-  {
-    "idPregunta": 15,
-    "nombrePregunta": "En 'Speed' (1994), ¿qué debe evitar el autobús?",
-    "alternativas": ["Detenerse", "Bajar de 50 km/h"],
-    "explicacionRespuesta": [
-      {
-        "tipo": "texto",
-        "contenido": "El autobús explota si baja de 50 km/h."
+        "contenido": "Apocalypse es el antiguo mutante que amenaza al mundo."
       }
     ],
     "numeroAlternativaCorrecta": 2
   },
   {
-    "idPregunta": 16,
+    "idPregunta": 14,
     "nombrePregunta": "En 'The Avengers' (2012), ¿qué objeto busca Loki?",
     "alternativas": ["Guantelete del Infinito", "Espada de Asgard", "Cetro de Loki", "Gema del Alma"],
     "explicacionRespuesta": [
@@ -192,8 +168,32 @@
     "numeroAlternativaCorrecta": 3
   },
   {
+    "idPregunta": 15,
+    "nombrePregunta": "En 'Speed' (1994), ¿qué debe evitar el autobús para no explotar?",
+    "alternativas": ["Detenerse", "Bajar de 50 km/h", "Subir demasiado rápido", "Girar demasiado fuerte"],
+    "explicacionRespuesta": [
+      {
+        "tipo": "texto",
+        "contenido": "El autobús explota si baja de 50 km/h."
+      }
+    ],
+    "numeroAlternativaCorrecta": 2
+  },
+  {
+    "idPregunta": 16,
+    "nombrePregunta": "En 'X-Men: Dark Phoenix' (2019), ¿qué personaje se vuelve Dark Phoenix?",
+    "alternativas": ["Jean Grey", "Storm", "Mystique", "Rogue"],
+    "explicacionRespuesta": [
+      {
+        "tipo": "texto",
+        "contenido": "Jean Grey absorbe demasiado poder y se convierte en Dark Phoenix."
+      }
+    ],
+    "numeroAlternativaCorrecta": 1
+  },
+  {
     "idPregunta": 17,
-    "nombrePregunta": "En 'Black Panther' (2018), ¿cómo se llama la ciudad principal?",
+    "nombrePregunta": "En 'Black Panther' (2018), ¿cómo se llama la ciudad principal de Wakanda?",
     "alternativas": ["Zamunda", "Wakanda City", "Birnin Zana", "Nairobi"],
     "explicacionRespuesta": [
       {
@@ -253,15 +253,15 @@
   },
   {
     "idPregunta": 22,
-    "nombrePregunta": "En 'Captain America: Civil War' (2016), ¿qué provoca la división entre héroes?",
-    "alternativas": ["Accidente internacional", "Acuerdo de Sokovia", "Ataque de Thanos", "Pérdida de la Guerra Fría"],
+    "nombrePregunta": "En 'X-Men Origins: Wolverine' (2009), ¿qué experimento le da sus garras a Logan?",
+    "alternativas": ["Arma X", "Fuerza Especial", "Proyecto Sentinel", "Mutante X"],
     "explicacionRespuesta": [
       {
         "tipo": "texto",
-        "contenido": "El Acuerdo de Sokovia provoca la división entre héroes."
+        "contenido": "El Proyecto Arma X le da sus garras a Logan."
       }
     ],
-    "numeroAlternativaCorrecta": 2
+    "numeroAlternativaCorrecta": 1
   },
   {
     "idPregunta": 23,

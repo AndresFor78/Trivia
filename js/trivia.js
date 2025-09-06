@@ -7,11 +7,10 @@ let modalApi = '', loader = '', contenedor = '', titulo = '',imagenesPrecargadas
 
 window.onload = ()=> {
 
-    const url = document.referrer;
-    console.log(url);
-    
-
     const tipoTriviaSeleccionada = obtenerTipoTriviaSeleccionada();
+
+    console.log(tipoTriviaSeleccionada);
+    
 
     modalApi= new Modal('modalTrivia');
     
@@ -68,9 +67,12 @@ function precargarImagenes() {
 
 export function cargarJson(triviaSeleccionada, barajarTrivia){
 
-    const rutaRaiz = 'https://AndresFor78.github.io/desarrollo/resources/';
+    const rutaRaiz = 'https://AndresFor78.github.io/Trivia/resources/';
     const json = triviaSeleccionada.json;
     const rutaCompleta = `${rutaRaiz}${json}`;
+
+    console.log(rutaCompleta);
+    
 
     fetch(rutaCompleta, {cache: 'no-store'})
     // fetch('https://AndresFor78.github.io/desarrollo/resources/triviaSurCopy.json', {cache: 'no-store'})
