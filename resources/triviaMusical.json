@@ -1,0 +1,303 @@
+[
+  {
+    "idPregunta": 1,
+    "nombrePregunta": "¿Qué banda británica lanzó el álbum 'Abbey Road' en 1969?",
+    "alternativas": ["The Rolling Stones", "The Beatles", "Queen", "Pink Floyd"],
+    "explicacionRespuesta": [
+      {
+        "tipo": "texto",
+        "contenido": "'Abbey Road' es uno de los álbumes más icónicos de The Beatles, famoso por su portada y canciones como 'Come Together' y 'Here Comes the Sun'."
+      }
+    ],
+    "numeroAlternativaCorrecta": 2
+  },
+  {
+    "idPregunta": 2,
+    "nombrePregunta": "¿Qué cantante colombiana es conocida por éxitos como 'Hips Don’t Lie'?",
+    "alternativas": ["Beyoncé", "Shakira", "Rihanna", "Jennifer Lopez"],
+    "explicacionRespuesta": [
+      {
+        "tipo": "texto",
+        "contenido": "Shakira es una cantante colombiana reconocida mundialmente por mezclar pop y ritmos latinos, y 'Hips Don’t Lie' es uno de sus mayores éxitos."
+      }
+    ],
+    "numeroAlternativaCorrecta": 4
+  },
+  {
+    "idPregunta": 3,
+    "nombrePregunta": "¿Cuál de estos grupos es considerado pionero del rock chileno?",
+    "alternativas": ["Los Bunkers", "La Ley", "Myriam Hernández", "Los Prisioneros"],
+    "explicacionRespuesta": [
+      {
+        "tipo": "texto",
+        "contenido": "Los Prisioneros marcaron un hito en la historia del rock chileno con canciones que criticaban la realidad social y política del país."
+      }
+    ],
+    "numeroAlternativaCorrecta": 1
+  },
+  {
+    "idPregunta": 4,
+    "nombrePregunta": "¿Qué grupo surcoreano es famoso por canciones como 'Dynamite' y 'Butter'?",
+    "alternativas": ["BLACKPINK", "EXO", "BTS", "TWICE"],
+    "explicacionRespuesta": [
+      {
+        "tipo": "texto",
+        "contenido": "BTS es un grupo de K-pop surcoreano conocido por su éxito mundial y por liderar la expansión global del género."
+      }
+    ],
+    "numeroAlternativaCorrecta": 3
+  },
+  {
+    "idPregunta": 5,
+    "nombrePregunta": "¿Qué álbum de Michael Jackson se convirtió en el más vendido de la historia?",
+    "alternativas": ["Off the Wall", "Dangerous", "Thriller", "Bad"],
+    "explicacionRespuesta": [
+      {
+        "tipo": "texto",
+        "contenido": "'Thriller' es el álbum más vendido de todos los tiempos, consolidando a Michael Jackson como el Rey del Pop."
+      }
+    ],
+    "numeroAlternativaCorrecta": 2
+  },
+  {
+    "idPregunta": 6,
+    "nombrePregunta": "¿Qué banda argentina es famosa por 'De Música Ligera'?",
+    "alternativas": ["Los Fabulosos Cadillacs", "Soda Stereo", "Patricio Rey y sus Redonditos de Ricota", "La Bersuit Vergarabat"],
+    "explicacionRespuesta": [
+      {
+        "tipo": "texto",
+        "contenido": "'De Música Ligera' es uno de los mayores éxitos de Soda Stereo, una banda icónica del rock en español."
+      }
+    ],
+    "numeroAlternativaCorrecta": 3
+  },
+  {
+    "idPregunta": 7,
+    "nombrePregunta": "¿Qué solista chilena es reconocida por su estilo romántico y baladas?",
+    "alternativas": ["Mon Laferte", "Ana Tijoux", "Denisse Malebrán", "Myriam Hernández"],
+    "explicacionRespuesta": [
+      {
+        "tipo": "texto",
+        "contenido": "Myriam Hernández es famosa por sus baladas románticas y ha sido una de las voces más representativas de Chile."
+      }
+    ],
+    "numeroAlternativaCorrecta": 4
+  },
+  {
+    "idPregunta": 8,
+    "nombrePregunta": "¿Qué grupo surcoreano lanzó el sencillo 'Kill This Love'?",
+    "alternativas": ["BLACKPINK", "BTS", "SEVENTEEN", "ITZY"],
+    "explicacionRespuesta": [
+      {
+        "tipo": "texto",
+        "contenido": "'Kill This Love' es un éxito global del grupo femenino BLACKPINK, famoso en el K-pop y la música internacional."
+      }
+    ],
+    "numeroAlternativaCorrecta": 1
+  },
+  {
+    "idPregunta": 9,
+    "nombrePregunta": "¿Qué banda estadounidense es conocida por canciones como 'Hotel California'?",
+    "alternativas": ["Journey", "Fleetwood Mac", "Eagles", "Aerosmith"],
+    "explicacionRespuesta": [
+      {
+        "tipo": "texto",
+        "contenido": "'Hotel California' es un himno del rock estadounidense interpretado por los Eagles, uno de los clásicos más reconocidos de la historia."
+      }
+    ],
+    "numeroAlternativaCorrecta": 4
+  },
+  {
+    "idPregunta": 10,
+    "nombrePregunta": "¿Qué cantante española es famosa por 'La Flaca' y 'Bojos'?",
+    "alternativas": ["Alejandro Sanz", "David Bisbal", "Mecano", "Jarabe de Palo"],
+    "explicacionRespuesta": [
+      {
+        "tipo": "texto",
+        "contenido": "Jarabe de Palo, liderado por Pau Donés, es conocido por su mezcla de rock y pop con letras profundas y pegajosas."
+      }
+    ],
+    "numeroAlternativaCorrecta": 2
+  },
+  {
+    "idPregunta": 11,
+    "nombrePregunta": "¿Qué cantante chilena ganó reconocimiento internacional con el álbum 'La Trenza'?",
+    "alternativas": ["Denisse Malebrán", "Mon Laferte", "Myriam Hernández", "Ana Tijoux"],
+    "explicacionRespuesta": [
+      {
+        "tipo":"texto",
+        "contenido":"Mon Laferte es una cantante chilena que combina pop, rock y música latina, y 'La Trenza' le dio reconocimiento internacional."
+      }
+    ],
+    "numeroAlternativaCorrecta": 3
+  },
+  {
+    "idPregunta": 12,
+    "nombrePregunta": "¿Qué grupo surcoreano tiene el hit 'Love Scenario'?",
+    "alternativas": ["iKON", "EXO", "BTS", "TWICE"],
+    "explicacionRespuesta": [
+      {
+        "tipo":"texto",
+        "contenido":"iKON es un grupo de K-pop surcoreano famoso por la canción 'Love Scenario', muy popular en Asia y a nivel mundial."
+      }
+    ],
+    "numeroAlternativaCorrecta": 4
+  },
+  {
+    "idPregunta": 13,
+    "nombrePregunta": "¿Qué banda británica es famosa por 'Bohemian Rhapsody'?",
+    "alternativas": ["Queen", "Led Zeppelin", "Pink Floyd", "The Beatles"],
+    "explicacionRespuesta": [
+      {
+        "tipo":"texto",
+        "contenido":"'Bohemian Rhapsody' es un icónico tema de Queen que combina rock, ópera y pop, y se ha convertido en un clásico universal."
+      }
+    ],
+    "numeroAlternativaCorrecta": 1
+  },
+  {
+    "idPregunta": 14,
+    "nombrePregunta": "¿Qué banda chilena lanzó el álbum 'Canción de Lejos'?",
+    "alternativas": ["La Ley", "Los Bunkers", "Los Prisioneros", "Myriam Hernández"],
+    "explicacionRespuesta": [
+      {
+        "tipo":"texto",
+        "contenido":"Los Bunkers son una banda chilena de rock/pop que destacan por álbumes como 'Canción de Lejos', influyendo en la música nacional."
+      }
+    ],
+    "numeroAlternativaCorrecta": 2
+  },
+  {
+    "idPregunta": 15,
+    "nombrePregunta": "¿Qué cantante puertorriqueño es famoso por éxitos como 'Despacito'?",
+    "alternativas": ["Marc Anthony", "Ricky Martin", "Luis Fonsi", "Daddy Yankee"],
+    "explicacionRespuesta": [
+      {
+        "tipo":"texto",
+        "contenido":"Luis Fonsi alcanzó fama mundial con 'Despacito', una canción que marcó récords de streaming y popularidad en todo el mundo."
+      }
+    ],
+    "numeroAlternativaCorrecta": 1
+  },
+  {
+    "idPregunta": 16,
+    "nombrePregunta": "¿Qué grupo surcoreano lanzó el álbum 'Love Yourself: Tear'?",
+    "alternativas": ["EXO", "BTS", "NCT", "Stray Kids"],
+    "explicacionRespuesta": [
+      {
+        "tipo":"texto",
+        "contenido":"BTS es un grupo de K-pop que lanzó 'Love Yourself: Tear', consolidando su fama mundial con este álbum de éxito masivo."
+      }
+    ],
+    "numeroAlternativaCorrecta": 2
+  },
+  {
+    "idPregunta": 17,
+    "nombrePregunta": "¿Qué banda estadounidense es famosa por 'Sweet Child O' Mine'?",
+    "alternativas": ["Guns N' Roses", "Metallica", "Nirvana", "Aerosmith"],
+    "explicacionRespuesta": [
+      {
+        "tipo":"texto",
+        "contenido":"'Sweet Child O' Mine' es un clásico del rock de Guns N' Roses, conocido por su riff de guitarra icónico y gran éxito mundial."
+      }
+    ],
+    "numeroAlternativaCorrecta": 3
+  },
+  {
+    "idPregunta": 18,
+    "nombrePregunta": "¿Qué cantante chileno lanzó el álbum 'Viva Chile'?",
+    "alternativas": ["Mon Laferte", "La Ley", "Los Bunkers", "Beto Cuevas"],
+    "explicacionRespuesta": [
+      {
+        "tipo":"texto",
+        "contenido":"Beto Cuevas, ex líder de La Ley, lanzó álbumes representativos de la música chilena, incluyendo 'Viva Chile', con estilo rock/pop."
+      }
+    ],
+    "numeroAlternativaCorrecta": 4
+  },
+  {
+    "idPregunta": 19,
+    "nombrePregunta": "¿Qué banda británica es conocida por 'Comfortably Numb'?",
+    "alternativas": ["The Beatles", "Queen", "Pink Floyd", "Led Zeppelin"],
+    "explicacionRespuesta": [
+      {
+        "tipo":"texto",
+        "contenido":"'Comfortably Numb' es una de las canciones más icónicas de Pink Floyd, conocida por su solo de guitarra y estilo progresivo."
+      }
+    ],
+    "numeroAlternativaCorrecta": 1
+  },
+  {
+    "idPregunta": 20,
+    "nombrePregunta": "¿Qué cantante española es famosa por 'Corazón Partío'?",
+    "alternativas": ["David Bisbal", "Miguel Bosé", "Alejandro Sanz", "Pablo Alborán"],
+    "explicacionRespuesta": [
+      {
+        "tipo":"texto",
+        "contenido":"Alejandro Sanz es un cantautor español reconocido por su estilo romántico y éxitos como 'Corazón Partío' en el pop en español."
+      }
+    ],
+    "numeroAlternativaCorrecta": 2
+  },
+  {
+    "idPregunta": 21,
+    "nombrePregunta": "¿Qué grupo surcoreano es famoso por 'Fancy'?",
+    "alternativas": ["BLACKPINK", "BTS", "TWICE", "ITZY"],
+    "explicacionRespuesta": [
+      {
+        "tipo":"texto",
+        "contenido":"'Fancy' es un exitoso sencillo del grupo femenino TWICE, consolidado en el género K-pop y con gran popularidad internacional."
+      }
+    ],
+    "numeroAlternativaCorrecta": 3
+  },
+  {
+    "idPregunta": 22,
+    "nombrePregunta": "¿Qué banda argentina es famosa por la canción 'Persiana Americana'?",
+    "alternativas": ["Soda Stereo", "Los Fabulosos Cadillacs", "La Renga", "Patricio Rey y sus Redonditos de Ricota"],
+    "explicacionRespuesta": [
+      {
+        "tipo":"texto",
+        "contenido":"'Persiana Americana' es un clásico del rock en español interpretado por Soda Stereo, banda icónica de Argentina."
+      }
+    ],
+    "numeroAlternativaCorrecta": 4
+  },
+  {
+    "idPregunta": 23,
+    "nombrePregunta": "¿Qué cantante chilena es conocida por 'Amor Completo'?",
+    "alternativas": ["Mon Laferte", "Myriam Hernández", "Denisse Malebrán", "Ana Tijoux"],
+    "explicacionRespuesta": [
+      {
+        "tipo":"texto",
+        "contenido":"'Amor Completo' es uno de los éxitos más reconocidos de Mon Laferte, combinando pop, rock y música latina."
+      }
+    ],
+    "numeroAlternativaCorrecta": 1
+  },
+  
+{
+    "idPregunta": 24,
+    "nombrePregunta": "¿Qué grupo surcoreano lanzó 'Growl'?",
+    "alternativas": ["EXO", "BTS", "SEVENTEEN", "NCT"],
+    "explicacionRespuesta": [
+      {
+        "tipo":"texto",
+        "contenido":"'Growl' es un sencillo muy popular del grupo surcoreano EXO, que consolidó su fama dentro del K-pop y en el mercado internacional."
+      }
+    ],
+    "numeroAlternativaCorrecta": 1
+  },
+  {
+    "idPregunta": 25,
+    "nombrePregunta": "¿Qué banda británica lanzó el álbum 'The Dark Side of the Moon'?",
+    "alternativas": ["Pink Floyd", "Queen", "The Beatles", "Led Zeppelin"],
+    "explicacionRespuesta": [
+      {
+        "tipo":"texto",
+        "contenido":"'The Dark Side of the Moon' es un álbum emblemático de Pink Floyd, conocido por su estilo progresivo, sus efectos de sonido innovadores y su gran éxito mundial."
+      }
+    ],
+    "numeroAlternativaCorrecta": 1
+  }
+]

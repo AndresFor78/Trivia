@@ -1,0 +1,302 @@
+[
+  {
+    "idPregunta": 1,
+    "nombrePregunta": "¿Quién destruye la luna durante la llegada de los Saiyajin a la Tierra?",
+    "alternativas": ["Goku", "Vegeta", "Nappa", "Gohan"],
+    "explicacionRespuesta": [
+      {
+        "tipo": "texto",
+        "contenido": "Vegeta destruye la luna para impedir que Gohan se transforme en Ozaru."
+      }
+    ],
+    "numeroAlternativaCorrecta": 2
+  },
+  {
+    "idPregunta": 2,
+    "nombrePregunta": "¿Qué ataque utiliza Goku por primera vez contra Vegeta en su forma de Ozaru?",
+    "alternativas": ["Kamehameha", "Masenko", "Kaio-Ken", "Big Bang Attack"],
+    "explicacionRespuesta": [
+      {
+        "tipo": "texto",
+        "contenido": "Goku combina Kaio-Ken y su velocidad para intentar derrotar al Ozaru de Vegeta."
+      }
+    ],
+    "numeroAlternativaCorrecta": 3
+  },
+  {
+    "idPregunta": 3,
+    "nombrePregunta": "¿Qué evento provoca que Goku se transforme en Super Saiyajin contra Freezer?",
+    "alternativas": ["La muerte de Krillin", "Entrenamiento en Namek", "Uso de Kaio-Ken", "Rabia contra Zarbon"],
+    "explicacionRespuesta": [
+      {
+        "tipo": "texto",
+        "contenido": "La muerte de Krillin provoca que Goku alcance el Super Saiyajin."
+      }
+    ],
+    "numeroAlternativaCorrecta": 1
+  },
+  {
+    "idPregunta": 4,
+    "nombrePregunta": "¿Quién derrota a Freezer en su primera aparición en Namek?",
+    "alternativas": ["Vegeta", "Goku", "Piccolo", "Krillin"],
+    "explicacionRespuesta": [
+        {
+            "tipo": "texto",
+            "contenido": "Goku derrota a Freezer en Namek tras alcanzar el nivel de Super Saiyajin, marcando un momento clave en la saga."
+        }
+    ],
+    "numeroAlternativaCorrecta": 2
+  },
+  {
+    "idPregunta": 5,
+    "nombrePregunta": "¿Qué técnica usa Vegeta para atacar a Cell en su lucha final?",
+    "alternativas": ["Final Flash", "Big Bang Attack", "Galick Gun", "Kamehameha"],
+    "explicacionRespuesta": [
+      {
+        "tipo": "texto",
+        "contenido": "Vegeta utiliza Final Flash para intentar derrotar a Cell."
+      }
+    ],
+    "numeroAlternativaCorrecta": 1
+  },
+  {
+    "idPregunta": 6,
+    "nombrePregunta": "¿Quién se fusiona con Trunks para formar Gotenks?",
+    "alternativas": ["Goten", "Gohan", "Vegeta", "Piccolo"],
+    "explicacionRespuesta": [
+      {
+        "tipo": "texto",
+        "contenido": "Goten y Trunks usan la Danza de la Fusión para formar a Gotenks."
+      }
+    ],
+    "numeroAlternativaCorrecta": 1
+  },
+  {
+    "idPregunta": 7,
+    "nombrePregunta": "¿Cuál es la primera fusión que aparece en Dragon Ball Z?",
+    "alternativas": ["Vegito", "Gogeta", "Gotenks", "Piccolo Fusion"],
+    "explicacionRespuesta": [
+      {
+        "tipo": "texto",
+        "contenido": "Gotenks es la primera fusión en la serie, combinando a Goten y Trunks."
+      }
+    ],
+    "numeroAlternativaCorrecta": 3
+  },
+  {
+    "idPregunta": 8,
+    "nombrePregunta": "¿Qué evento provoca que Vegeta se vuelva 'Majin Vegeta'?",
+    "alternativas": ["Babidi lo controla", "Desea más poder de forma natural", "Querer superar a Goku", "Un experimento de Dr. Gero"],
+    "explicacionRespuesta": [
+      {
+        "tipo": "texto",
+        "contenido": "Babidi manipula a Vegeta para liberar su maldad y aumentar su poder, convirtiéndolo en Majin Vegeta."
+      }
+    ],
+    "numeroAlternativaCorrecta": 1
+  },
+  {
+    "idPregunta": 9,
+    "nombrePregunta": "¿Qué villano absorbe a otros para aumentar su poder durante la saga de Majin Buu?",
+    "alternativas": ["Cell", "Majin Buu", "Freezer", "Vegeta"],
+    "explicacionRespuesta": [
+      {
+        "tipo": "texto",
+        "contenido": "Majin Buu absorbe a otros para incrementar su fuerza y habilidades."
+      }
+    ],
+    "numeroAlternativaCorrecta": 2
+  },
+  {
+    "idPregunta": 10,
+    "nombrePregunta": "¿Qué transformación alcanza Goku para enfrentar por primera vez a Majin Buu?",
+    "alternativas": ["Super Saiyajin 2", "Super Saiyajin 3", "Super Saiyajin Blue", "Ultra Instinto"],
+    "explicacionRespuesta": [
+      {
+        "tipo": "texto",
+        "contenido": "Goku alcanza Super Saiyajin 3 contra Majin Buu, aumentando mucho su poder."
+      }
+    ],
+    "numeroAlternativaCorrecta": 2
+  },
+  {
+    "idPregunta": 11,
+    "nombrePregunta": "¿Quién destruye Namek al final de la saga de Freezer?",
+    "alternativas": ["Freezer", "Goku", "Vegeta", "Piccolo"],
+    "explicacionRespuesta": [
+      {
+        "tipo": "texto",
+        "contenido": "Freezer destruye Namek con su poder tras la batalla final con Goku."
+      }
+    ],
+    "numeroAlternativaCorrecta": 1
+  },
+  {
+    "idPregunta": 12,
+    "nombrePregunta": "¿Qué técnica especial usa Gohan para derrotar definitivamente a Cell?",
+    "alternativas": ["Kamehameha con ayuda de Goku", "Final Flash", "Masenko", "Big Bang Attack"],
+    "explicacionRespuesta": [
+      {
+        "tipo": "texto",
+        "contenido": "Gohan utiliza un Kamehameha potenciado por la energía de Goku para destruir a Cell definitivamente."
+      }
+    ],
+    "numeroAlternativaCorrecta": 1
+  },
+  {
+    "idPregunta": 13,
+    "nombrePregunta": "¿Qué habilidad de Freezer le permite sobrevivir a ataques devastadores en Namek?",
+    "alternativas": ["Regeneración", "Transformación final", "Absorción de Ki", "Teletransportación"],
+    "explicacionRespuesta": [
+      {
+        "tipo": "texto",
+        "contenido": "Freezer usa su transformación final para aumentar su resistencia y poder."
+      }
+    ],
+    "numeroAlternativaCorrecta": 2
+  },
+  {
+    "idPregunta": 14,
+    "nombrePregunta": "¿Quién entrena a Gohan desde pequeño?",
+    "alternativas": ["Maestro Roshi", "Goku", "Vegeta", "Piccolo solo"],
+    "explicacionRespuesta": [
+      {
+        "tipo": "texto",
+        "contenido": "Piccolo entrena a Gohan para prepararlo ante los Saiyajin y fortalecerlo."
+      }
+    ],
+    "numeroAlternativaCorrecta": 4
+  },
+  {
+    "idPregunta": 15,
+    "nombrePregunta": "¿Qué técnica combina Vegeta con su orgullo para enfrentar a Cell?",
+    "alternativas": ["Big Bang Attack", "Final Flash", "Galick Gun", "Kamehameha"],
+    "explicacionRespuesta": [
+      {
+        "tipo": "texto",
+        "contenido": "Vegeta usa Final Flash, potenciando su ataque con fuerza y determinación."
+      }
+    ],
+    "numeroAlternativaCorrecta": 2
+  },
+  {
+    "idPregunta": 16,
+    "nombrePregunta": "¿Qué técnica usa Piccolo para atacar a Nappa mientras protege a los civiles?",
+    "alternativas": ["Masenko", "Makankosappo", "Kamehameha", "Solar Flare"],
+    "explicacionRespuesta": [
+      {
+        "tipo": "texto",
+        "contenido": "Piccolo usa Makankosappo para herir a Nappa mientras protege a la población."
+      }
+    ],
+    "numeroAlternativaCorrecta": 2
+  },
+  {
+    "idPregunta": 17,
+    "nombrePregunta": "¿Qué habilidad de Gotenks lo hace difícil de derrotar por Majin Buu?",
+    "alternativas": ["Transformación en Super Saiyajin 3", "Uso de Instant Transmission", "Telepatía Saiyajin", "Absorción de energía"],
+    "explicacionRespuesta": [
+      {
+        "tipo": "texto",
+        "contenido": "Gotenks alcanza Super Saiyajin 3, aumentando su poder y velocidad frente a Buu."
+      }
+    ],
+    "numeroAlternativaCorrecta": 1
+  },
+  {
+    "idPregunta": 18,
+    "nombrePregunta": "¿Qué factor permite que Goku y Vegeta formen Vegito?",
+    "alternativas": ["Danza de la Fusión", "Pendientes Pothala", "Deseo de Shenlong", "Cápsula del tiempo"],
+    "explicacionRespuesta": [
+      {
+        "tipo": "texto",
+        "contenido": "Usando los Pendientes Pothala, Goku y Vegeta se fusionan para convertirse en Vegito."
+      }
+    ],
+    "numeroAlternativaCorrecta": 2
+  },
+  {
+    "idPregunta": 19,
+    "nombrePregunta": "¿Qué hace Vegeta para intentar derrotar a Majin Buu sin ayuda de Goku?",
+    "alternativas": ["Crear Spirit Bomb", "Fusionarse con Goku", "Autodestruirse", "Buscar ayuda de Babidi"],
+    "explicacionRespuesta": [
+      {
+        "tipo": "texto",
+        "contenido": "Vegeta se sacrifica autodestruyéndose contra Majin Buu."
+      }
+    ],
+    "numeroAlternativaCorrecta": 3
+  },
+  {
+    "idPregunta": 20,
+    "nombrePregunta": "¿Qué habilidad especial de Cell le permite recuperarse rápidamente de heridas graves?",
+    "alternativas": ["Regeneración celular", "Absorción de androides", "Ki de los enemigos", "Teletransportación"],
+    "explicacionRespuesta": [
+      {
+        "tipo": "texto",
+        "contenido": "Cell posee regeneración celular, lo que le permite reconstruir partes de su cuerpo dañadas y sobrevivir a ataques devastadores."
+      }
+    ],
+    "numeroAlternativaCorrecta": 1
+  },
+  {
+    "idPregunta": 21,
+    "nombrePregunta": "¿Qué técnica usa Goku para derrotar a Kid Buu definitivamente?",
+    "alternativas": ["Fusion Dance", "Spirit Bomb con energía universal", "Super Saiyajin 3", "Kaio-Ken X20"],
+    "explicacionRespuesta": [
+      {
+        "tipo": "texto",
+        "contenido": "Goku destruye a Kid Buu usando la Genki Dama con energía de todo el universo."
+      }
+    ],
+    "numeroAlternativaCorrecta": 2
+  },
+  {
+    "idPregunta": 22,
+    "nombrePregunta": "¿Qué estrategia usan Goku y Gohan para vencer a Cell durante los juegos de Cell?",
+    "alternativas": ["Ataque combinado con Kamehameha", "Usar Instant Transmission", "Fusionarse", "Dejar que Cell explote solo"],
+    "explicacionRespuesta": [
+      {
+        "tipo": "texto",
+        "contenido": "Gohan libera su poder oculto y ataca a Cell con Kamehameha, derrotándolo con estrategia y fuerza."
+      }
+    ],
+    "numeroAlternativaCorrecta": 1
+  },
+  {
+    "idPregunta": 23,
+    "nombrePregunta": "¿Qué personaje absorbe a Gotenks y Piccolo durante la saga de Buu?",
+    "alternativas": ["Super Buu", "Kid Buu", "Fat Buu", "Majin Vegeta"],
+    "explicacionRespuesta": [
+        {
+            "tipo": "texto",
+            "contenido": "Super Buu absorbe a Gotenks y Piccolo para aumentar su poder durante la saga de Buu."
+        }
+    ],
+    "numeroAlternativaCorrecta": 1
+},
+{
+  "idPregunta": 24,
+  "nombrePregunta": "¿Quién es el primer Saiyajin que se transforma en Super Saiyajin en la Tierra?",
+  "alternativas": ["Goku", "Vegeta", "Gohan", "Trunks"],
+  "explicacionRespuesta": [
+    {
+      "tipo": "texto",
+      "contenido": "Goku es el primer Saiyajin que alcanza el Super Saiyajin en la Tierra, durante la pelea contra Freezer en Namek y posteriormente perfecciona la forma en la Tierra."
+    }
+  ],
+  "numeroAlternativaCorrecta": 1
+},
+{
+  "idPregunta": 25,
+  "nombrePregunta": "¿Qué objeto permite a Goten y Trunks realizar la fusión correctamente?",
+  "alternativas": ["Pendientes Pothala", "Danza de la Fusión", "Genki Dama", "Kamehameha combinado"],
+  "explicacionRespuesta": [
+    {
+      "tipo": "texto",
+      "contenido": "Goten y Trunks realizan la fusión mediante la Danza de la Fusión, un ritual que requiere coordinación y sincronización exacta."
+    }
+  ],
+  "numeroAlternativaCorrecta": 2
+}
+]

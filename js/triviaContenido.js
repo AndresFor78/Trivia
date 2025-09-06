@@ -16,7 +16,7 @@ export function obtenerTriviaContenido(){
     const triviaContenido = [
     {
         tipo: 'sur',
-        json: 'triviaSur.json',
+        json: 'triviaSurVacaciones.json',
         mensaje: `¡Demuestra que conoces el sur de Chile
                    contestando las {{}} preguntas y
                    obtén tu medalla! `,
@@ -24,20 +24,20 @@ export function obtenerTriviaContenido(){
     },
     {
         tipo: 'dragon',
-        json: 'triviaSur.json',
+        json: 'triviaDragonBallz.json',
         mensaje: `Prepárate para contestar las {{}} preguntas y 
                   demostrar que realmente conoces Dragon Ball Z!`,
         img: imagenes['triviaDragon']
     },
     {
         tipo: 'cine',
-        json: 'triviaSur.json',
+        json: 'triviaCine.json',
         mensaje: `¿Eres un verdadero fanático del cine? Aquí hay {{}} preguntas esperando por ti.`,
         img: imagenes['triviaCine']
     },
     {
         tipo: 'musical',
-        json: 'triviaSur.json',
+        json: 'triviaMusical.json',
         mensaje: `¿Sabes de música? Obtén tu medalla contestando las {{}} preguntas de esta trivia que
                   podrá a prueba tus conocimientos musicales.`,
         img: imagenes['triviaMusical']

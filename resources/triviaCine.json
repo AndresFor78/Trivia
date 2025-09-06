@@ -1,0 +1,302 @@
+[
+  {
+    "idPregunta": 1,
+    "nombrePregunta": "En 'Jurassic Park' (1993), ¿qué dinosaurio ataca primero a los personajes?",
+    "alternativas": ["Tyrannosaurus Rex", "Velociraptor", "Triceratops", "Brachiosaurus"],
+    "explicacionRespuesta": [
+      {
+        "tipo": "texto",
+        "contenido": "El Tyrannosaurus Rex es el primero en atacar a los protagonistas."
+      }
+    ],
+    "numeroAlternativaCorrecta": 1
+  },
+  {
+    "idPregunta": 2,
+    "nombrePregunta": "En 'Die Hard' (1988), ¿dónde ocurre la acción principal?",
+    "alternativas": ["Avión en vuelo", "Rascacielos Nakatomi Plaza", "Base militar secreta"],
+    "explicacionRespuesta": [
+      {
+        "tipo": "texto",
+        "contenido": "Toda la acción sucede en el rascacielos Nakatomi Plaza."
+      }
+    ],
+    "numeroAlternativaCorrecta": 2
+  },
+  {
+    "idPregunta": 3,
+    "nombrePregunta": "En 'The Matrix' (1999), ¿qué pastilla toma Neo para ver la verdad?",
+    "alternativas": ["Azul", "Roja"],
+    "explicacionRespuesta": [
+      {
+        "tipo": "texto",
+        "contenido": "Neo toma la pastilla roja para despertar de la Matrix."
+      }
+    ],
+    "numeroAlternativaCorrecta": 2
+  },
+  {
+    "idPregunta": 4,
+    "nombrePregunta": "En 'Terminator 2' (1991), ¿qué modelo protege a John Connor?",
+    "alternativas": ["T-1000", "T-800", "T-600", "T-3000"],
+    "explicacionRespuesta": [
+      {
+        "tipo": "texto",
+        "contenido": "El T-800 protege a John Connor del T-1000."
+      }
+    ],
+    "numeroAlternativaCorrecta": 2
+  },
+  {
+    "idPregunta": 5,
+    "nombrePregunta": "En 'Indiana Jones y los Cazadores del Arca Perdida', ¿qué busca Indiana?",
+    "alternativas": ["El Rubí del Nilo", "La Piedra Filosofal", "El Santo Grial", "La Arca de la Alianza"],
+    "explicacionRespuesta": [
+      {
+        "tipo": "texto",
+        "contenido": "Indiana Jones busca la Arca de la Alianza."
+      }
+    ],
+    "numeroAlternativaCorrecta": 4
+  },
+  {
+    "idPregunta": 6,
+    "nombrePregunta": "En 'Back to the Future' (1985), ¿a qué año viaja Marty McFly?",
+    "alternativas": ["2015", "1985", "1935", "1955"],
+    "explicacionRespuesta": [
+      {
+        "tipo": "texto",
+        "contenido": "Marty viaja accidentalmente al año 1955."
+      }
+    ],
+    "numeroAlternativaCorrecta": 4
+  },
+  {
+    "idPregunta": 7,
+    "nombrePregunta": "En 'Gladiator' (2000), ¿qué título recibe Maximus en la arena?",
+    "alternativas": ["César", "Gladiador", "General", "Comandante"],
+    "explicacionRespuesta": [
+      {
+        "tipo": "texto",
+        "contenido": "Maximus es conocido como 'Gladiador'."
+      }
+    ],
+    "numeroAlternativaCorrecta": 2
+  },
+  {
+    "idPregunta": 8,
+    "nombrePregunta": "En 'The Dark Knight' (2008), ¿quién causa caos en Gotham?",
+    "alternativas": ["Two-Face", "El Joker", "Bane", "Scarecrow"],
+    "explicacionRespuesta": [
+      {
+        "tipo": "texto",
+        "contenido": "El Joker es el villano que genera caos en Gotham."
+      }
+    ],
+    "numeroAlternativaCorrecta": 2
+  },
+  {
+    "idPregunta": 9,
+    "nombrePregunta": "En 'Mission: Impossible' (1996), ¿qué tecnología usa Ethan Hunt?",
+    "alternativas": ["Drones", "Máscaras faciales", "Traje invisible"],
+    "explicacionRespuesta": [
+      {
+        "tipo": "texto",
+        "contenido": "Ethan Hunt usa máscaras faciales realistas."
+      }
+    ],
+    "numeroAlternativaCorrecta": 2
+  },
+  {
+    "idPregunta": 10,
+    "nombrePregunta": "En 'Pirates of the Caribbean' (2003), ¿qué busca Jack Sparrow?",
+    "alternativas": ["El Tesoro Azteca", "El Perla Negra", "La Corona del Rey", "El Holandés Errante"],
+    "explicacionRespuesta": [
+      {
+        "tipo": "texto",
+        "contenido": "Jack busca recuperar su barco, el Perla Negra."
+      }
+    ],
+    "numeroAlternativaCorrecta": 2
+  },
+  {
+    "idPregunta": 11,
+    "nombrePregunta": "En 'Avatar' (2009), ¿cómo se llama el planeta?",
+    "alternativas": ["Vulcano", "Pandora", "Krypton", "Endor"],
+    "explicacionRespuesta": [
+      {
+        "tipo": "texto",
+        "contenido": "La historia ocurre en Pandora."
+      }
+    ],
+    "numeroAlternativaCorrecta": 2
+  },
+  {
+    "idPregunta": 12,
+    "nombrePregunta": "En 'Inception' (2010), ¿qué usa Dom Cobb como tótem?",
+    "alternativas": ["Trompo", "Moneda", "Dado", "Anillo"],
+    "explicacionRespuesta": [
+      {
+        "tipo": "texto",
+        "contenido": "Cobb usa un trompo; si sigue girando, está en un sueño."
+      }
+    ],
+    "numeroAlternativaCorrecta": 1
+  },
+  {
+    "idPregunta": 13,
+    "nombrePregunta": "En 'Mad Max: Fury Road' (2015), ¿quién persigue a Max y Furiosa?",
+    "alternativas": ["Nux", "Rictus Erectus", "Immortan Joe", "Furiosa"],
+    "explicacionRespuesta": [
+      {
+        "tipo": "texto",
+        "contenido": "Immortan Joe persigue a Max y Furiosa."
+      }
+    ],
+    "numeroAlternativaCorrecta": 3
+  },
+  {
+    "idPregunta": 14,
+    "nombrePregunta": "En 'Guardians of the Galaxy' (2014), ¿qué objeto buscan?",
+    "alternativas": ["El Orbe", "Cetro de Loki", "Teseracto", "Gema del Poder"],
+    "explicacionRespuesta": [
+      {
+        "tipo": "texto",
+        "contenido": "El Orbe contiene la Gema del Poder."
+      }
+    ],
+    "numeroAlternativaCorrecta": 1
+  },
+  {
+    "idPregunta": 15,
+    "nombrePregunta": "En 'Speed' (1994), ¿qué debe evitar el autobús?",
+    "alternativas": ["Detenerse", "Bajar de 50 km/h"],
+    "explicacionRespuesta": [
+      {
+        "tipo": "texto",
+        "contenido": "El autobús explota si baja de 50 km/h."
+      }
+    ],
+    "numeroAlternativaCorrecta": 2
+  },
+  {
+    "idPregunta": 16,
+    "nombrePregunta": "En 'The Avengers' (2012), ¿qué objeto busca Loki?",
+    "alternativas": ["Guantelete del Infinito", "Espada de Asgard", "Cetro de Loki", "Gema del Alma"],
+    "explicacionRespuesta": [
+      {
+        "tipo": "texto",
+        "contenido": "Loki usa el Cetro de Loki que contiene la Gema de la Mente."
+      }
+    ],
+    "numeroAlternativaCorrecta": 3
+  },
+  {
+    "idPregunta": 17,
+    "nombrePregunta": "En 'Black Panther' (2018), ¿cómo se llama la ciudad principal?",
+    "alternativas": ["Zamunda", "Wakanda City", "Birnin Zana", "Nairobi"],
+    "explicacionRespuesta": [
+      {
+        "tipo": "texto",
+        "contenido": "Wakanda City es la capital avanzada de Wakanda."
+      }
+    ],
+    "numeroAlternativaCorrecta": 2
+  },
+  {
+    "idPregunta": 18,
+    "nombrePregunta": "En 'Spider-Man: Homecoming' (2017), ¿qué villano usa un traje tecnológico?",
+    "alternativas": ["Mysterio", "El Buitre", "Electro", "Green Goblin"],
+    "explicacionRespuesta": [
+      {
+        "tipo": "texto",
+        "contenido": "El Buitre usa un traje avanzado y causa caos en Nueva York."
+      }
+    ],
+    "numeroAlternativaCorrecta": 2
+  },
+  {
+    "idPregunta": 19,
+    "nombrePregunta": "En 'Iron Man' (2008), ¿qué material usa Tony Stark para su primer traje?",
+    "alternativas": ["Hierro", "Titanio", "Acero", "Vibranium"],
+    "explicacionRespuesta": [
+      {
+        "tipo": "texto",
+        "contenido": "Tony Stark construye su primer traje usando titanio."
+      }
+    ],
+    "numeroAlternativaCorrecta": 2
+  },
+  {
+    "idPregunta": 20,
+    "nombrePregunta": "En 'Thor' (2011), ¿qué arma simboliza el poder de Thor?",
+    "alternativas": ["Mjolnir", "Stormbreaker", "Cetro de Loki", "Espada de Asgard"],
+    "explicacionRespuesta": [
+      {
+        "tipo": "texto",
+        "contenido": "Mjolnir es el martillo de Thor."
+      }
+    ],
+    "numeroAlternativaCorrecta": 1
+  },
+  {
+    "idPregunta": 21,
+    "nombrePregunta": "En 'Doctor Strange' (2016), ¿qué arte místico aprende Stephen Strange?",
+    "alternativas": ["Magia de hechizos", "Alquimia", "Artes místicas", "Hechicería oscura"],
+    "explicacionRespuesta": [
+      {
+        "tipo": "texto",
+        "contenido": "Stephen Strange aprende artes místicas."
+      }
+    ],
+    "numeroAlternativaCorrecta": 3
+  },
+  {
+    "idPregunta": 22,
+    "nombrePregunta": "En 'Captain America: Civil War' (2016), ¿qué provoca la división entre héroes?",
+    "alternativas": ["Accidente internacional", "Acuerdo de Sokovia", "Ataque de Thanos", "Pérdida de la Guerra Fría"],
+    "explicacionRespuesta": [
+      {
+        "tipo": "texto",
+        "contenido": "El Acuerdo de Sokovia provoca la división entre héroes."
+      }
+    ],
+    "numeroAlternativaCorrecta": 2
+  },
+  {
+    "idPregunta": 23,
+    "nombrePregunta": "En 'Avengers: Infinity War' (2018), ¿quién busca las Gemas del Infinito?",
+    "alternativas": ["Thanos", "Ultron", "Loki", "Hela"],
+    "explicacionRespuesta": [
+      {
+        "tipo": "texto",
+        "contenido": "Thanos busca reunir las Gemas del Infinito."
+      }
+    ],
+    "numeroAlternativaCorrecta": 1
+  },
+  {
+    "idPregunta": 24,
+    "nombrePregunta": "En 'Guardians of the Galaxy Vol. 2' (2017), ¿quién es el padre de Peter Quill?",
+    "alternativas": ["Ego", "Yondu", "Ronan", "Thanos"],
+    "explicacionRespuesta": [
+      {
+        "tipo": "texto",
+        "contenido": "Ego es el padre de Peter Quill."
+      }
+    ],
+    "numeroAlternativaCorrecta": 1
+  },
+  {
+    "idPregunta": 25,
+    "nombrePregunta": "En 'Avengers: Endgame' (2019), ¿qué estrategia usan los héroes para derrotar a Thanos?",
+    "alternativas": ["Héroes clonados", "Robots de combate", "Viaje en el tiempo", "Ataque frontal"],
+    "explicacionRespuesta": [
+      {
+        "tipo": "texto",
+        "contenido": "Usan viajes en el tiempo para recolectar las Gemas del Infinito y derrotar a Thanos."
+      }
+    ],
+    "numeroAlternativaCorrecta": 3
+  }
+]
