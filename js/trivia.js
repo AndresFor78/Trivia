@@ -7,6 +7,10 @@ let modalApi = '', loader = '', contenedor = '', titulo = '',imagenesPrecargadas
 
 window.onload = ()=> {
 
+    const url = document.referrer;
+    console.log(url);
+    
+
     const tipoTriviaSeleccionada = obtenerTipoTriviaSeleccionada();
 
     modalApi= new Modal('modalTrivia');
@@ -68,9 +72,9 @@ export function cargarJson(triviaSeleccionada, barajarTrivia){
     const json = triviaSeleccionada.json;
     const rutaCompleta = `${rutaRaiz}${json}`;
 
-    fetch(rutaCompleta, {cache: 'no-store'})
+    // fetch(rutaCompleta, {cache: 'no-store'})
     // fetch('https://AndresFor78.github.io/desarrollo/resources/triviaSurCopy.json', {cache: 'no-store'})
-    // fetch('./resources/triviaSurCopy.json')
+    fetch('./resources/triviaSurCopy.json')
     .then(response => {
         if (!response.ok) {
             throw new Error("Se ha producido un error al cargar el recurso");            

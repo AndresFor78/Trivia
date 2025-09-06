@@ -98,8 +98,7 @@ footer p{
         width: 90%;
     }
     .titulo-principal img {
-        width: 80%;
-        /* height: auto; */
+        width: 80%;        
     }
     .grilla {
             display: grid;
@@ -110,7 +109,11 @@ footer p{
     }
     a .item-contenido p{
         height: 50%;
+        font-size: .7rem;
     }  
+    footer p{
+        font-size: .8rem;
+    }
 }
 
 /* Tablet */

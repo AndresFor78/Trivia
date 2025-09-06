@@ -27,7 +27,6 @@ export class Modal {
 
         const btnVolverJugar = document.getElementById('btnVolverJugar');
         btnVolverJugar.addEventListener('click', (e)=>{
-
             e.preventDefault();            
             const tipoTriviaSeleccionada = obtenerTipoTriviaSeleccionada();          
             const barajarTrivia = true;
@@ -81,8 +80,12 @@ export class Modal {
     }
 
     compartirResultados(){
+
+        //Rescata página de origen
+        const urlOrigen = sessionStorage.getItem('origen');
+
+        console.log(urlOrigen);
         
-        console.log(window.location.href);
         
         let tipoMedalla = this.mensajeDetalle.dataset.tipoMedalla;
 
@@ -97,16 +100,13 @@ export class Modal {
         }else{
             mensaje = `Jugué Trivia, gané una medalla de ${tipoMedalla} ${tipoIcono} y obtuve ${this.mensajeDetalle.dataset.correctas} correctas de ${this.mensajeDetalle.dataset.totPreguntas} preguntas 🎯.
                       ¿Puedes superarme? 😛 !Juega y averígualo! 💪`;
-        }
-        
-        console.log(mensaje);
-        
+        }         
        
         if (navigator.share) {
             navigator.share({
                 title: "Mis resultados de la Trivia",
                 text: mensaje,
-                url: window.location.href
+                url: urlOrigen
             });
         }
     }

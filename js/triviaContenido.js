@@ -1,7 +1,7 @@
 export function obtenerTriviaContenido(){
 
     let imagenes = {
-        triviaSur : 'img/triviaSur.jpg',
+        triviaSur : 'img/triviaSur.webp',
         triviaDragon: 'img/bannerDragonBallz.png',
         triviaCine: 'img/bannerCine.png',
         triviaMusical: 'img/triviaMusical.jpg'
