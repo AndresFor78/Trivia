@@ -97,7 +97,7 @@
   },
   {
     "idPregunta": 9,
-    "nombrePregunta": "¿Qué villano absorbe a otros para aumentar su poder durante la saga de Majin Buu?",
+    "nombrePregunta": "¿Qué personaje absorbe a otros para aumentar su poder durante la saga de Majin Buu?",
     "alternativas": ["Cell", "Majin Buu", "Freezer", "Vegeta"],
     "explicacionRespuesta": [
       {
@@ -218,7 +218,7 @@
   {
     "idPregunta": 19,
     "nombrePregunta": "¿Qué hace Vegeta para intentar derrotar a Majin Buu sin ayuda de Goku?",
-    "alternativas": ["Crear Spirit Bomb", "Fusionarse con Goku", "Autodestruirse", "Buscar ayuda de Babidi"],
+    "alternativas": ["Crear una Genkidama", "Fusionarse con Goku", "Autodestruirse", "Buscar ayuda de Babidi"],
     "explicacionRespuesta": [
       {
         "tipo": "texto",
@@ -242,7 +242,7 @@
   {
     "idPregunta": 21,
     "nombrePregunta": "¿Qué técnica usa Goku para derrotar a Kid Buu definitivamente?",
-    "alternativas": ["Fusion Dance", "Spirit Bomb con energía universal", "Super Saiyajin 3", "Kaio-Ken X20"],
+    "alternativas": ["Fusion Dance", "Genkidama", "Super Saiyajin 3", "Kaio-Ken X20"],
     "explicacionRespuesta": [
       {
         "tipo": "texto",
