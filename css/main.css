@@ -104,6 +104,7 @@ footer p{
             display: grid;
             grid-template-columns: repeat(2, 1fr);            
     }
+        
     a img{
         height: 50%;
     }
