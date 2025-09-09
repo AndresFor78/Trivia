@@ -7,6 +7,12 @@
 body{
     background-color: var(--color-fondo);
     font-family: Arial, Helvetica, sans-serif;
+    display: flex;
+    flex-direction: column;
+}
+
+main{
+    flex: 1;
 }
 
 .container{
