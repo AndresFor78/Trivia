@@ -8,7 +8,6 @@ export function obtenerTriviaContenido(){
     };
 
     Object.values(imagenes).forEach( src => {
-        console.log(src);
         const img = new Image();
         img.src = src;        
     })

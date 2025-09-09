@@ -73,9 +73,6 @@ export function cargarJson(triviaSeleccionada, barajarTrivia){
     const json = triviaSeleccionada.json;
     const rutaCompleta = `${rutaRaiz}${json}`;
 
-    console.log(rutaCompleta);
-    
-
     fetch(rutaCompleta, {cache: 'no-store'})
     // fetch('https://AndresFor78.github.io/desarrollo/resources/triviaSurCopy.json', {cache: 'no-store'})
     // fetch('./resources/triviaSurCopy.json')
