@@ -17,6 +17,10 @@ body{
     align-items: center;
 }
 
+.hidden{
+    display: none;
+}
+
 .titulo-principal{
     margin: 2rem 0 2rem 0;
     display: flex;
@@ -25,7 +29,6 @@ body{
 
 .titulo-principal img{
     width: 50%;
-    /* height: auto; */
 }
 
 .grilla {

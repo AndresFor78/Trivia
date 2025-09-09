@@ -1,34 +1,8 @@
-
- document.querySelector('.grilla').style.visibility = 'hidden';
-               
-
-    //Preload de imágenes
-    let cantidad = 0;
-    const imagenes = Array.from(document.querySelectorAll('a img'));
-
-    imagenes.forEach(img =>{
-        const temp = new Image();
-        temp.src = img.src;
-        temp.onload = () => {
-            // setTimeout(() => {
-                cantidad++;
-                if (cantidad === imagenes.length) {
-                    console.log('mostrar grilla');                    
-                    document.querySelector('.grilla').style.visibility = 'visible';
-                    
-                }
-                
-            // }, 3000);
-            
-        }
-        
-    })
-
+//Preload de imágenes
+preload();
 
 window.onload = ()=>{
-
-   
-
+    
     document.querySelectorAll('.grilla a').forEach(a =>{
                
         a.addEventListener('click', function(e){
@@ -40,5 +14,29 @@ window.onload = ()=>{
         })
     })
     
+};
+
+function preload(){
+
+    let cantidad = 0;
+    const imagenes = Array.from(document.querySelectorAll('a img'));
+
+    imagenes.forEach(img =>{
+    const temp = new Image();
+    temp.src = img.src;
+    temp.onload = () => {
+        // setTimeout(() => {
+            cantidad++;
+            if (cantidad === imagenes.length) {
+                console.log('mostrar grilla');  
+                document.querySelector('.container').classList.remove('hidden');
+            }
+            
+        // }, 3000);
+        
+    }
+
+    })
+
 }
 
