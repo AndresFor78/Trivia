@@ -31,14 +31,14 @@ function preload(){
     const temp = new Image();
     temp.src = img.src;
     temp.onload = () => {
-        setTimeout(() => {
+        // setTimeout(() => {
             cantidad++;
             if (cantidad === imagenes.length) {
                 console.log('mostrar grilla');  
                 document.querySelector('.container').classList.remove('hidden');
                 document.getElementById('loader').classList.add('hidden');
             }            
-        }, 3000);        
+        // }, 3000);        
     }
 
     })
