@@ -4,13 +4,13 @@ html{
 }
 
 html, body{
-    height: 100%;
-    display: flex;
-    flex-direction: column;
+    height: 100%;   
 }
 
 body{
-    background: #130a2e;    
+    background: #130a2e; 
+    display: flex;
+    flex-direction: column;
 }
 
 main{

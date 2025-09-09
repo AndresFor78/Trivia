@@ -1,3 +1,9 @@
+import { crearLoader } from "./loader.js";
+
+//Inserta loader en el html
+let loader = crearLoader();
+document.querySelector('main').insertAdjacentHTML("afterbegin", loader);
+
 //Preload de imágenes
 preload();
 
@@ -25,15 +31,14 @@ function preload(){
     const temp = new Image();
     temp.src = img.src;
     temp.onload = () => {
-        // setTimeout(() => {
+        setTimeout(() => {
             cantidad++;
             if (cantidad === imagenes.length) {
                 console.log('mostrar grilla');  
                 document.querySelector('.container').classList.remove('hidden');
-            }
-            
-        // }, 3000);
-        
+                document.getElementById('loader').classList.add('hidden');
+            }            
+        }, 3000);        
     }
 
     })

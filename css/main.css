@@ -6,10 +6,16 @@
 
 body{
     background-color: var(--color-fondo);
-    font-family: Arial, Helvetica, sans-serif;
-    height: 100%;
+    font-family: Arial, Helvetica, sans-serif;    
     display: flex;
     flex-direction: column;
+}
+
+/* body es hijo de html, ambos deben ocupar la altura completa de la pantalla
+es decor, html ocupa el 100% de la altura de la pantalla del dispositivo y 
+body el 100% de html */
+html, body {    
+    height: 100%;    
 }
 
 main{

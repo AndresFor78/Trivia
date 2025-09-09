@@ -1,16 +1,18 @@
 import { Medallero } from "./medallas/medallero.js";
 import { Modal } from "./modal.js";
 import { obtenerTriviaContenido } from "./triviaContenido.js";
+import { crearLoader } from "./loader.js";
 
 var contadorCorrectas = 0, contadorIncorrectas = 0, totalPreguntas = 0;
 let modalApi = '', loader = '', contenedor = '', titulo = '',imagenesPrecargadas = '';
 
+//Loader
+let loaderInsertar = crearLoader();
+document.querySelector('main').insertAdjacentHTML('afterbegin', loaderInsertar);
+
 window.onload = ()=> {
-
-    const tipoTriviaSeleccionada = obtenerTipoTriviaSeleccionada();
-
-    console.log(tipoTriviaSeleccionada);
     
+    const tipoTriviaSeleccionada = obtenerTipoTriviaSeleccionada();
 
     modalApi= new Modal('modalTrivia');
     
