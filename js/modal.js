@@ -62,7 +62,7 @@ export class Modal {
         
     }
 
-    actualizarContenidoModal(medallero){
+    actualizarContenidoModal(medallero, tipoTriviaSeleccionada){
 
         const medalla = medallero.obtenerMedalla();
                
@@ -76,6 +76,8 @@ export class Modal {
         this.mensajeDetalle.dataset.incorrectas = medallero.incorrectas;
         this.mensajeDetalle.dataset.totPreguntas = medallero.totPreguntas;
         this.mensajeDetalle.dataset.tipoMedalla = medalla.tipo;
+        this.mensajeDetalle.dataset.tipoTrivia = tipoTriviaSeleccionada.tipo;
+        this.mensajeDetalle.dataset.nombreTrivia = tipoTriviaSeleccionada.nombre;
           
     }
 
@@ -83,11 +85,9 @@ export class Modal {
 
         //Rescata página de origen
         const urlOrigen = sessionStorage.getItem('origen');
-
-        console.log(urlOrigen);
-        
         
         let tipoMedalla = this.mensajeDetalle.dataset.tipoMedalla;
+        let nombreTrivia = this.mensajeDetalle.dataset.nombreTrivia;
 
         const iconos = {oro: '🥇', plata: '🥈', bronce: '🥉'};
 
@@ -95,12 +95,17 @@ export class Modal {
 
         let mensaje = '';
         if (tipoMedalla === 'consuelo') {
-            mensaje = `Hola! 🖐 Jugué Trivia y no gané ninguna medalla! 😥 Obtuve ${this.mensajeDetalle.dataset.correctas} correctas de ${this.mensajeDetalle.dataset.totPreguntas} preguntas 🎯.
-                      ¿Puedes superarme? 😛 !Juega y averígualo! 💪`;
+            mensaje = `¡Hola! 🖐 Jugué la Trivia ${nombreTrivia} y no gané ninguna medalla! 😥 Obtuve ${this.mensajeDetalle.dataset.correctas} correctas
+                       de ${this.mensajeDetalle.dataset.totPreguntas} preguntas 🎯.
+                      ¿Quieres probar tú? 😛 !Juega en el link de abajo y averígualo! 💪`;
         }else{
-            mensaje = `Jugué Trivia, gané una medalla de ${tipoMedalla} ${tipoIcono} y obtuve ${this.mensajeDetalle.dataset.correctas} correctas de ${this.mensajeDetalle.dataset.totPreguntas} preguntas 🎯.
-                      ¿Puedes superarme? 😛 !Juega y averígualo! 💪`;
-        }         
+            mensaje = `¡Hola! Jugué la Trivia ${nombreTrivia}, gané una medalla de ${tipoMedalla} ${tipoIcono} y obtuve ${this.mensajeDetalle.dataset.correctas} correctas
+                       de ${this.mensajeDetalle.dataset.totPreguntas} preguntas 🎯.
+                      ¿Puedes superarme? 😛 !Juega en el link de abajo y averígualo! 💪`;
+        }    
+        
+        console.log(mensaje);
+        
        
         if (navigator.share) {
             navigator.share({

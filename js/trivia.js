@@ -13,7 +13,7 @@ document.querySelector('main').insertAdjacentHTML('afterbegin', loaderInsertar);
 window.onload = ()=> {
     
     const tipoTriviaSeleccionada = obtenerTipoTriviaSeleccionada();
-
+ 
     modalApi= new Modal('modalTrivia');
     
     titulo = document.querySelector('.titulo');
@@ -148,11 +148,11 @@ function crearTrivia(jsonPreguntas, triviaSeleccionada, barajarTrivia){
                     //Guarda en localstorage
                     localStorage.setItem(`Trivia${triviaSeleccionada.tipo}PreguntaId${pregunta.idPregunta}`,index);                   
                     // Verifica si se contestaron todas las preguntas
-                    if (verificarTriviaFinalizada(preguntas.length)) {
-                        //Borra LocalStorage de la trivia
-                        limpiarLocalStorage(triviaSeleccionada);                        
+                    if (verificarTriviaFinalizada(preguntas.length)) {                                            
                         const medallero = new Medallero(contadorCorrectas, contadorIncorrectas, totalPreguntas, imagenesPrecargadas);
-                        modalApi.actualizarContenidoModal(medallero);
+                        modalApi.actualizarContenidoModal(medallero, triviaSeleccionada);
+                        //Borra LocalStorage de la trivia
+                        limpiarLocalStorage(triviaSeleccionada);    
                         modalApi.mostrarModal();                       
                     }
                 });

@@ -2,6 +2,10 @@ import { crearLoader } from "./loader.js";
 
 window.onload = ()=>{
 
+    let div = document.querySelector('.titulo-principal');
+
+    div.dataset.nombre = 'alejandro';
+
     //Comprueba si las imágenes ya han sido cargadas
     if (!sessionStorage.getItem('imagenesCargadas')) {
         mostrarLoader();
