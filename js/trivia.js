@@ -69,7 +69,8 @@ function precargarImagenes() {
 
 export function cargarJson(triviaSeleccionada, barajarTrivia){
 
-    const rutaRaiz = 'https://AndresFor78.github.io/Trivia/resources/';
+    // const rutaRaiz = 'https://AndresFor78.github.io/Trivia/resources/';
+    const rutaRaiz = './resources/';
     const json = triviaSeleccionada.json;
     const rutaCompleta = `${rutaRaiz}${json}`;
 
